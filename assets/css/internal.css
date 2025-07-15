@@ -1,0 +1,58 @@
+.flex-header{
+    background-color: #1A202C;
+    display: flex;
+}
+
+/* company logo */
+.company-logo{
+    padding:0 10px;
+    width: 17%;
+    display: flex;
+    gap:10px;
+    background-color: #5fbb55;
+    align-self: center;
+}
+.company-name h1{
+    font-size: 14px;
+}
+
+/* group-menu */
+.group-menu{
+    background-color: #006CE4;
+    width: 70%;
+    align-self: center;
+}
+
+/* heading navigation*/
+.heading-navigation{
+    padding:0 100px;
+}
+.heading-navigation ul {
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading-navigation ul li {
+    list-style: none;
+}
+
+/* login-signup navigation */
+.login-signup{
+    width: 13%;
+    display: flex;
+    background-color: #c86f6f;
+    justify-content: center;
+    align-self: center;
+}
+
+.login-signup {
+    background-color: #ffffff;
+}
+
+.login-signup button{
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    color: #149507;
+}
