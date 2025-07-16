@@ -1,6 +1,7 @@
 .flex-header{
-    background-color: #1A202C;
+    width: 1200px;
     display: flex;
+    margin: 0 auto;
 }
 
 /* company logo */
@@ -9,7 +10,6 @@
     width: 17%;
     display: flex;
     gap:10px;
-    background-color: #5fbb55;
     align-self: center;
 }
 .company-name h1{
@@ -18,9 +18,56 @@
 
 /* group-menu */
 .group-menu{
-    background-color: #006CE4;
     width: 70%;
     align-self: center;
+}
+
+@media (max-width: 1200px) {
+    .flex-header{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .company-logo{
+        width: 10%;
+    }
+    .group-menu{
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .flex-header{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .company-logo{
+        width: 10%;
+    }
+    .heading-navigation ul {
+        gap: 10px;
+    }
+    .login-signup{
+        background-color: #c86f6f;
+        display: none !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .flex-header{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .company-logo{
+        width: 1%;
+    }
+    .heading-navigation ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .heading-navigation li a {
+        font-size: 10px;
+    }
 }
 
 /* heading navigation*/
@@ -28,7 +75,6 @@
     padding:0 100px;
 }
 .heading-navigation ul {
-    background-color: #9b59b6;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,7 +87,6 @@
 .login-signup{
     width: 13%;
     display: flex;
-    background-color: #c86f6f;
     justify-content: center;
     align-self: center;
 }
