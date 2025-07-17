@@ -108,9 +108,9 @@
     color: white;
 }
 
-/* main flex content */
-/* main flex content */
-/* main flex content */
+/* main flex hero */
+/* main flex hero */
+/* main flex hero */
 
 .hero{
     margin: 0 50px;
@@ -150,4 +150,37 @@
 .right-illustration img{
     width: 391px;
     height: 407px;
+}
+
+/* main flex clients */
+/* main flex clients */
+/* main flex clients */
+
+.clients{
+    margin: 0 50px;
+    /*background-color: #7f2e5c;*/
+}
+.clients-container{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #c86f6f;*/
+}
+.clients-start {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-start > * {
+    text-align: center;
+}
+
+.clients-end .client-logos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients-end .client-logos li {
+    list-style: none;
 }
