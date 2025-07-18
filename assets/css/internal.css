@@ -12,8 +12,8 @@
     gap:10px;
     align-self: center;
 }
-.company-name h1{
-    font-size: 14px;
+.company-logo img{
+    color:black;
 }
 
 /* group-menu */
@@ -514,4 +514,56 @@
     color: #4CAF4F;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer  */
+/* footer  */
+/* footer  */
+
+.footer-main{
+    text-align: center;
+    background-color: #F5F7FA;
+}
+.footer-main-start h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #263238;
+}
+.footer-main-end button{
+    background-color: #149507;
+    width: 178px;
+    height: 52px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.footer-body{
+    background-color: #263238;
+}
+.footer-body-container{
+    display: flex;
+    margin:50px 200px;
+}
+.footer-body-left{
+    width: 33%;
+    color: white;
+}
+.footer-body-left  .company-logo{
+    display: flex;
+}
+
+.socials-media{
+    display: flex;
+}
+
+.footer-body-right{
+    display: flex;
+    width: 66%;
+}
+.footer-body-left .socials-media-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left:0;
 }
