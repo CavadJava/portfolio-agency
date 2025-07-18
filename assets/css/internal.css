@@ -463,3 +463,55 @@
     border-radius: 4px;
     border:none;
 }
+
+/* bpdy flex community */
+/* main flex community */
+/* main flex community */
+
+
+.community{
+    margin: 0 10px 150px 150px;
+}
+.community-container{
+    display: flex;
+    flex-direction: column;
+}
+.community-start{
+    text-align: center;
+}
+.community-start .description{
+    margin: 0 420px;
+}
+.community-end{
+    padding: 0 50px;
+    width: 70%;
+    display: flex;
+    gap: 40px;
+}
+.community-frame{
+    /*padding: 30px 30px;*/
+    flex:13%;
+    position: relative;
+}
+.community-content {
+    width: 330px;
+    height: 176px;
+    bottom:-100px;
+    left:20px;
+    z-index: 1;
+    border-radius: 8px;
+    background: #F5F7FA;
+    position: absolute;
+    text-align: center;
+}
+.community-content .header {
+    padding: 20px 20px 0 20px;
+    color: #717171;
+    font-size: 20px;
+    font-weight: 600;
+}
+.community-content .more {
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+}
