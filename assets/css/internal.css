@@ -384,12 +384,10 @@
     gap: 100px;
 }
 .calendar-start{
-    display: flex;
     width: 30%;
 }
 .calendar-end{
     padding: 0 50px;
-    display: flex;
     width: 70%;
 }
 .calendar-content {
@@ -409,6 +407,55 @@
     padding-bottom: 8px;
 }
 .calendar-frame button {
+    width:151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color:white;
+    border-radius: 4px;
+    border:none;
+}
+
+/* bpdy flex customer */
+/* main flex customer */
+/* main flex customer */
+
+
+.customer{
+    margin: 0 150px;
+}
+.customer-container{
+    display: flex;
+    gap: 100px;
+}
+.customer-start{
+    width: 30%;
+}
+.customer-end{
+    padding: 0 50px;
+    width: 70%;
+}
+.customer-content {
+    width: 90%;
+    flex-direction: column;
+}
+.customer-content .header {
+    color: #717171;
+    font-size: 16px;
+    font-weight: 500;
+}
+.customer-content .fullname {
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.customer-content .description {
+    color: #89939E;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.customer-frame button {
     width:151px;
     height: 52px;
     background-color: #4CAF4F;
