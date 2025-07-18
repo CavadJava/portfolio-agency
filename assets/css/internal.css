@@ -222,7 +222,7 @@
     text-align: center;
     justify-content: space-between;
     gap: 8px;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .community-membership {
     background-color: #7f2e5c;
@@ -253,4 +253,121 @@
 .community-members  p {
     color: #717171;
     font-size: 12px;
+}
+
+/* bpdy flex unlock */
+/* main flex unlock */
+/* main flex unlock */
+
+.community{
+    max-width: 1440px;
+    margin: 0 50px;
+    /*background-color: #7f2e5c;*/
+}
+.unlock {
+    padding: 50px 0;
+}
+.unlock-container{
+    margin: 0 150px;
+    display: flex;
+}
+.unlock-start{
+    display: flex;
+    width: 40%;
+}
+.unlock-end{
+    display: flex;
+    width: 60%;
+}
+.unlock-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #7f2e5c;
+}
+.unlock-content h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+}
+.unlock-content p {
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.unlock-frame button {
+    width:151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color:white;
+    border-radius: 4px;
+    border:none;
+}
+
+
+/* bpdy flex archievements */
+/* main flex archievements */
+/* main flex archievements */
+
+.achievements{
+    background-color: #F5F7FA;
+}
+.achievements-container{
+    margin: 0 150px;
+    padding: 40px 40px;
+    display: flex;
+    gap: 40px;
+}
+.achievements-start {
+    flex: 50%;
+}
+.achievements-start * {
+    margin: 0;
+}
+.achievements-start .title1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.achievements-start .title2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+.achievements-start .description {
+    font-size: 16px;
+    margin-top:10px;
+    font-weight: 400;
+    color: #18191F;
+}
+.achievements-end{
+    flex: 50%;
+}
+
+.achievements-counts {
+    width: 400px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achievements-row {
+    flex: 35%;
+    display: flex;
+}
+.achievements-logo {
+    width: 30%;
+}
+.achievements-text *{
+    margin:1px;
+}
+.achievements-text h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+.achievements-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
 }
